@@ -8,25 +8,29 @@
   <title>Cars 8</title>
 </head>
 <body>
-  <header>
-    <figure>
-      <img src="images/car0.png" alt="car" class="header-front">
-      <img src="images/car1.png" alt="car" class="header-back">
-    </figure>
-    <button onclick="moveLeft()">PREVIOUS</button>
-    <button onclick="moveRight()">NEXT</button>
-  </header>
-  <section>
-    <figure class="shuffle shuffle0"><img src="images/car0.png" alt="car"></figure>
-    <figure class="shuffle shuffle1"><img src="images/car1.png" alt="car"></figure>
-    <figure class="shuffle shuffle2"><img src="images/car2.png" alt="car"></figure>
-    <figure class="shuffle shuffle3"><img src="images/car3.png" alt="car"></figure>
-    <figure class="shuffle shuffle4"><img src="images/car4.png" alt="car"></figure>
-    <figure class="shuffle shuffle5"><img src="images/car5.png" alt="car"></figure>
-    <figure class="shuffle shuffle6"><img src="images/car6.png" alt="car"></figure>
-    <figure class="shuffle shuffle7"><img src="images/car7.png" alt="car"></figure>
-    <figure id="highlight"></figure>
-  </section>
+  <div id="wrapper">
+    <header>
+      <figure>
+        <img src="images/car0.png" alt="car" class="header-front">
+        <img src="images/car1.png" alt="car" class="header-back">
+      </figure>
+      <button onclick="moveLeft()">PREVIOUS</button>
+      <button onclick="moveRight()">NEXT</button>
+    </header>
+    <section>
+      <div id="slide-wrapper">
+        <figure class="shuffle shuffle0"><img src="images/car0.png" alt="car"></figure>
+        <figure class="shuffle shuffle1"><img src="images/car1.png" alt="car"></figure>
+        <figure class="shuffle shuffle2"><img src="images/car2.png" alt="car"></figure>
+        <figure class="shuffle shuffle3"><img src="images/car3.png" alt="car"></figure>
+        <figure class="shuffle shuffle4"><img src="images/car4.png" alt="car"></figure>
+        <figure class="shuffle shuffle5"><img src="images/car5.png" alt="car"></figure>
+        <figure class="shuffle shuffle6"><img src="images/car6.png" alt="car"></figure>
+        <figure class="shuffle shuffle7"><img src="images/car7.png" alt="car"></figure>
+        <figure id="highlight"></figure>
+      </div>
+    </section>
+  </div>
   <script src="main.js"></script>
 </body>
 </html>
